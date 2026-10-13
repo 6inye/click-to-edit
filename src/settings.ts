@@ -15,7 +15,7 @@ export interface ClickToEditSettings {
 export const DEFAULT_SETTINGS: ClickToEditSettings = {
 	openInReaderMode: true,
 	skipEmptyNotes: true,
-	clickTrigger: "single",
+	clickTrigger: "double",
 	cursorPosition: "bottom",
 	disableOnMobile: true,
 };

@@ -1,7 +1,7 @@
 # Click to Edit
 
 An Obsidian plugin that makes notes feel more like a wiki: every note opens in
-**reader mode** by default, and a single click (or double click, if you
+**reader mode** by default, and a double click (or a single click, if you
 prefer) anywhere in the note flips it into **edit mode** with the cursor
 placed at the **end of the note** (or wherever you prefer).
 
@@ -9,12 +9,12 @@ placed at the **end of the note** (or wherever you prefer).
 
 - **Reader mode by default** &mdash; whenever a note is opened, it is
   automatically switched to reader (preview) mode.
-- **Click anywhere to edit** &mdash; a single click in the rendered note flips
+- **Click anywhere to edit** &mdash; a double click in the rendered note flips
   the view into edit (source) mode, with the cursor placed at the end of the
   note so you can immediately start typing.
-- **Single or double click** &mdash; use a single click to enter edit mode, or
-  switch to double clicks, which toggle between reader and edit mode in both
-  directions.
+- **Single or double click** &mdash; double click (the default) toggles between
+  reader and edit mode in both directions. You can switch to a single click,
+  which only enters edit mode from reader mode.
 - **Configurable cursor placement** &mdash; choose end of note (default), top
   of note, or as close to where you clicked as possible.
 - **Works in pop-out windows** &mdash; clicking works the same for notes opened
@@ -34,8 +34,8 @@ Open **Settings &rarr; Community plugins &rarr; Click to Edit** to configure:
   notes (so creating a note still drops you straight into editing).
 - **Disable on mobile** &mdash; keep the plugin out of the way on phones and
   tablets (on by default).
-- **Click trigger** &mdash; *Single click* (default) to switch to edit mode, or
-  *Double click* to toggle between reader and edit mode.
+- **Click trigger** &mdash; *Double click* (default) to toggle between reader and
+  edit mode, or *Single click* to switch to edit mode.
 - **Cursor position on edit** &mdash; choose between *Bottom of note* (default),
   *Top of note*, or *Where you clicked*.
 
